@@ -1,5 +1,3 @@
-# proyecto_ypf
-
 # Análisis de actividad sísmica en Argentina
 
 ## Dataset
