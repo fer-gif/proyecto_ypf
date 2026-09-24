@@ -1,0 +1,13 @@
+# Configuración local de PyCharm
+.idea/
+
+# Notebook temporal o copia de trabajo
+Copy_of_API_USGS.ipynb
+
+# Entorno virtual y archivos temporales de Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/

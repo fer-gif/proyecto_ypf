@@ -52,9 +52,9 @@ Los resultados también podrán compararse con los obtenidos mediante el modelo 
 ├── README.md
 │
 ├── data/
-│   └── raw/
+│   ├── raw/
 │       ├── sismos_usgs.csv
-│       └── geodata/
+│       ├── geodata/
 │            ├── limites.cpg
 │            ├── limites.prj
 │            ├── limites.shp
@@ -75,9 +75,12 @@ Los resultados también podrán compararse con los obtenidos mediante el modelo 
 │            ├── plataforma_continentalPolygon.shp
 │            ├── plataforma_continentalPolygon.shx
 │            └── plataforma_continentalPolygon.dbf
+│   └── processed/
+│       └── sismos_argentina_limpio.csv
 │
 ├── notebooks/
 │   ├── 01_analisis_exploratorio.ipynb
+│   └── 02_transformacion_datos.ipynb
 
 ```
 
