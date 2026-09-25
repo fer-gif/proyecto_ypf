@@ -87,6 +87,30 @@ Los resultados también podrán compararse con los obtenidos mediante el modelo 
 │  └── placas_tectonicas_sudamerica.png
 │
 │
+│       ├── sismos_usgs.csv
+│       ├── geodata/
+│            ├── limites.cpg
+│            ├── limites.prj
+│            ├── limites.shp
+│            ├── limites.shx
+│            ├── limites.dbf
+│            ├── referencias.cpg
+│            ├── referencias.prj
+│            ├── referencias.shp
+│            ├── referencias.shx
+│            ├── referencias.dbf
+│            ├── provinciaPolygon.cst
+│            ├── provinciaPolygon.prj
+│            ├── provinciaPolygon.shp
+│            ├── provinciaPolygon.shx
+│            ├── provinciaPolygon.dbf
+│            ├── plataforma_continentalPolygon.cst
+│            ├── plataforma_continentalPolygon.prj
+│            ├── plataforma_continentalPolygon.shp
+│            ├── plataforma_continentalPolygon.shx
+│            └── plataforma_continentalPolygon.dbf
+│   └── processed/
+│       └── sismos_argentina_limpio.csv
 │
 ├── notebooks/
 │   ├── 01_analisis_exploratorio.ipynb
