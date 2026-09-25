@@ -104,6 +104,7 @@ Los resultados también podrán compararse con los obtenidos mediante el modelo 
 * GeoPandas
 * Shapely
 * Io
+* Pathlib
 
 ---
 
