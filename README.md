@@ -10,7 +10,7 @@ Para este proyecto se utilizaron datos sísmicos pertenecientes al *United State
 
 ## Resumen del proyecto
 
-Caracterizar la actividad sísmica de Argentina mediante el análisis exploratorio de datos y técnicas de aprendizaje automático, con el propósito de identificar patrones espaciales y temporales y desarrollar una representación de las regiones según su comportamiento sísmico.
+Caracterizar la actividad sísmica de Argentina mediante el análisis exploratorio de datos y técnicas de aprendizaje automático, con el propósito de identificar patrones espaciales y temporales así como desarrollar una representación de las regiones según su comportamiento sísmico.
 
 ---
 
@@ -113,6 +113,7 @@ Los resultados también podrán compararse con los obtenidos mediante el modelo 
 * GeoPandas
 * Shapely
 * Io
+* PathLib
 * NumPy
 * Scikit-learn
 * XGBoost
@@ -121,8 +122,8 @@ Los resultados también podrán compararse con los obtenidos mediante el modelo 
 
 ## Integrantes del equipo
 
-Carina Dellasanta
-Fermín Hernando
+Carina Dellasanta,
+Fermín Hernando,
 Sergio Mamani
 
 Proyecto realizado en el marco del curso **Data Science + IA — Fundación YPF**.
