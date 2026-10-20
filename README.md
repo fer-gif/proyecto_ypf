@@ -31,7 +31,7 @@ Explorar, comprender y limpiar el conjunto de datos, evaluando su estructura, ca
 
 ### 2. Modelo supervisado
 
-El objetivo del análisis supervisado es evaluar si la actividad sísmica registrada previamente en una región puede utilizarse para estimar su comportamiento en un período posterior, a partir de los patrones observados en los datos históricos.
+El objetivo del modelado supervisado es predecir la cantidad de sismos en Argentina durante un período de X meses a partir de registros históricos, explorando la capacidad de distintos modelos para realizar estas predicciones y evaluar si los enfoques más complejos aportan una mejora respecto de métodos de referencia más sencillos.
 
 ---
 
@@ -40,8 +40,6 @@ El objetivo del análisis supervisado es evaluar si la actividad sísmica regist
 El objetivo del análisis no supervisado es identificar regiones con patrones similares de actividad sísmica, sin establecer previamente una clasificación de las zonas. A partir de los resultados obtenidos, se buscará caracterizar las diferencias entre las regiones y representar cómo se distribuyen espacialmente.
 
 Esta clasificación puede servir como punto de partida para futuros análisis de riesgo, combinando las regiones según su actividad sísmica con información sobre la población, las características edilicias y otras variables relacionadas con la vulnerabilidad y la exposición. Esto permitiría estudiar qué zonas concentran mayores niveles de peligro y vulnerabilidad, y generar información que pueda ser útil para orientar medidas de prevención y planificación de recursos.
-
-Los resultados también podrán compararse con los obtenidos mediante el modelo supervisado, incorporando una dimensión temporal al análisis según el objetivo definido para dicho modelo.
 
 ---
 
@@ -90,7 +88,10 @@ Los resultados también podrán compararse con los obtenidos mediante el modelo 
 │
 ├── notebooks/
 │   ├── 01_analisis_exploratorio.ipynb
-│   └── 02_transformacion_datos.ipynb
+│   ├── 02_transformacion_datos.ipynb
+│   └── 03_modelo_supervisado.ipynb
+│
+│
 
 ```
 
