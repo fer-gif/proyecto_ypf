@@ -99,13 +99,18 @@ Esta clasificación puede servir como punto de partida para futuros análisis de
 
 ## Librerías utilizadas
 
+* GeoPandas
 * Requests
 * Pandas
 * Matplotlib
-* GeoPandas
 * Shapely
 * Io
 * Pathlib
+* NumPy
+* Scikit-learn
+* XGBoost
+* IPython
+* Itertools
 
 ---
 
